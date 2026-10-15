@@ -1,8 +1,8 @@
 # Clowder / Oniru site
 
-Static single-page site (`index.html` + Cloudflare `_headers`).
+Static single-page site. The deployed files live in `public/` (`index.html` + Cloudflare `_headers`).
 
-Deployed to Cloudflare Pages. Build command: none. Output directory: `/` (repo root).
+Deployed to Cloudflare Pages. Build command: none. Output directory: `public/`.
 
 ## Deploy
 
