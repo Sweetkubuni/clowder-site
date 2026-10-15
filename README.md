@@ -7,7 +7,7 @@ Deployed to Cloudflare Pages. Build command: none. Output directory: `public/`.
 ## Deploy
 
 Hosted on Cloudflare (Workers static assets, created via `wrangler pages project create`).
-Live URL: https://clowder-site.lordcoder1990.workers.dev
+Live URLs: https://onirudesign.com, https://www.onirudesign.com, https://clowder-site.lordcoder1990.workers.dev
 
 To redeploy after changes:
 
