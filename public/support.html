@@ -1,61 +1,57 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Clowder Support — Oniru</title>
-<meta name="description" content="Get help with the Clowder app: contact us, report a problem, or ask about your account, purchases or data.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Space+Grotesk:wght@500;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<title>Support — Clowder by Oniru LLC</title>
 <style>
-  :root { --ink:#121715; --muted:#525b57; --faint:#8a938e; --line:#e3e7e3; --bg:#f6f7f5; --card:#fff; --accent:#0b7a4c; --accent-bg:#e4f7ee; }
-  * { box-sizing:border-box; }
-  body { margin:0; background:var(--bg); color:var(--ink); font-family:'Nunito',system-ui,sans-serif; font-size:17px; line-height:1.65; }
-  header { position:sticky; top:0; z-index:10; background:rgba(246,247,245,.85); backdrop-filter:blur(14px); border-bottom:1px solid var(--line); }
-  .bar { max-width:880px; margin:0 auto; padding:14px clamp(16px,4vw,32px); display:flex; justify-content:space-between; align-items:center; gap:16px; }
-  .brand { font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:20px; color:var(--ink); text-decoration:none; }
-  .bar nav a { color:var(--muted); text-decoration:none; font-weight:600; margin-left:16px; }
-  .bar nav a:hover { color:var(--accent); }
-  main { max-width:880px; margin:0 auto; padding:clamp(32px,6vw,72px) clamp(16px,4vw,32px); }
-  .eyebrow { font-family:'JetBrains Mono',monospace; font-size:13px; letter-spacing:.08em; text-transform:uppercase; color:var(--accent); }
-  h1 { font-family:'Space Grotesk',sans-serif; font-size:clamp(34px,6vw,52px); line-height:1.1; margin:8px 0 16px; }
-  h2 { font-family:'Space Grotesk',sans-serif; font-size:24px; margin:40px 0 8px; }
-  p, li { color:var(--muted); }
-  a { color:var(--accent); }
-  .card { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:24px; margin:24px 0; }
-  .card strong { color:var(--ink); }
-  .mail { display:inline-block; margin-top:8px; background:var(--accent-bg); color:var(--accent); font-weight:700; padding:10px 16px; border-radius:999px; text-decoration:none; overflow-wrap:anywhere; }
-  footer { border-top:1px solid var(--line); background:#fff; }
-  footer .bar { color:var(--faint); font-size:14px; flex-wrap:wrap; }
-  footer a { color:var(--muted); }
+  :root { --ink: #121715; --muted: #5b6460; --green: #19c37d; --bg: #faf9f5; --line: #e6e3da; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+  header { border-bottom: 1px solid var(--line); }
+  .bar { max-width: 760px; margin: 0 auto; padding: 18px 20px; display: flex; align-items: center; gap: 10px; }
+  .bar a { color: var(--ink); text-decoration: none; font-weight: 700; font-size: 20px; }
+  .bar a span { color: var(--green); }
+  main { max-width: 760px; margin: 0 auto; padding: 36px 20px 64px; }
+  h1 { font-size: 32px; line-height: 1.2; margin: 0 0 6px; }
+  .meta { color: var(--muted); margin: 0 0 28px; }
+  .card { background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 22px 24px; margin: 0 0 28px; }
+  .card a.mail { display: inline-block; margin-top: 6px; font-size: 20px; font-weight: 700; color: #0f8f5a; text-decoration: none; }
+  h2 { font-size: 20px; margin: 32px 0 8px; }
+  p, li { color: #2a312e; }
+  ul { padding-left: 22px; }
+  a { color: #0f8f5a; }
+  footer { border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+  footer .bar { justify-content: space-between; flex-wrap: wrap; }
+  footer a { color: var(--muted); }
 </style>
 </head>
 <body>
-<header><div class="bar"><a class="brand" href="/">Oniru</a><nav><a href="/support">Support</a><a href="/privacy">Privacy</a></nav></div></header>
+<header><div class="bar"><a href="/">Oniru<span>.</span></a></div></header>
 <main>
-  <div class="eyebrow">Clowder app</div>
-  <h1>Support</h1>
-  <p>Clowder is made by Oniru LLC. If something isn't working, you have a question about your account or a purchase, or you want to report something you saw in the app, write to us. A person reads every message.</p>
+  <h1>Clowder Support</h1>
+  <p class="meta">Clowder is made by Oniru LLC.</p>
 
   <div class="card">
     <strong>Email us</strong><br>
-    <a class="mail" href="mailto:justin.barnes@onirudesign.com?subject=Clowder%20support">justin.barnes@onirudesign.com</a>
-    <p>We aim to reply within 2 business days. Please include your Clowder @username and, for a purchase, the date and the token pack you bought.</p>
+    <a class="mail" href="mailto:support@onirudesign.com">support@onirudesign.com</a>
+    <p style="margin:10px 0 0">We reply within 24 hours.</p>
   </div>
 
-  <h2>Report a person, a room or a message</h2>
-  <p>Email us with the @username or room name, what happened and roughly when. We review reports and act on them, which can mean removing content, removing a user from a room, or closing a room.</p>
+  <h2>Report abuse or unsafe content</h2>
+  <p>The fastest way is in the app: open the person's profile or press and hold the message, then choose <strong>Report</strong>. You can also <strong>Block</strong> someone so they can no longer message you. We review reports within 24 hours and remove content or accounts that break our rules.</p>
+  <p>You can also email <a href="mailto:support@onirudesign.com">support@onirudesign.com</a> with the room name, the username, and what happened.</p>
 
-  <h2>Purchases and refunds</h2>
-  <p>Token packs are bought through the App Store, so Apple handles payment and refunds. To ask Apple for a refund, go to <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>. If you were charged but your tokens didn't arrive, email us first: we can usually fix it.</p>
+  <h2>Common questions</h2>
+  <ul>
+    <li><strong>Purchases and refunds.</strong> Tokens are bought through the App Store or Google Play, so refunds are requested from Apple (reportaproblem.apple.com) or Google Play. If tokens didn't arrive after a purchase, email us with the date and the pack you bought.</li>
+    <li><strong>Deleting your account.</strong> Delete it in the app, or email us from your account's address and we'll do it for you.</li>
+    <li><strong>Voice calls.</strong> If others can't hear you, check that Clowder has microphone access in your device settings.</li>
+  </ul>
 
-  <h2>Delete your account or your data</h2>
-  <p>Email us from the address you signed up with and ask us to delete your account. What we delete and what we have to keep is explained in our <a href="/privacy">privacy policy</a>.</p>
-
-  <h2>Mailing address</h2>
-  <p>Oniru LLC<br>502 W 7th St, Suite 100<br>Erie, PA 16502<br>United States</p>
+  <h2>Privacy</h2>
+  <p>See our <a href="/privacy">Privacy Policy</a>.</p>
 </main>
-<footer><div class="bar"><span>© 2026 Oniru LLC</span><span><a href="/support">Support</a> · <a href="/privacy">Privacy policy</a></span></div></footer>
+<footer><div class="bar"><span>© 2026 Oniru LLC</span><span><a href="/support">Support</a> · <a href="/privacy">Privacy</a></span></div></footer>
 </body>
 </html>
